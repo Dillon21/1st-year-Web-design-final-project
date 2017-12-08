@@ -1,0 +1,119 @@
+
+/*Dillon Scott 1604465*/
+/*changes background of first horizontal quarter, drags colour down and adds 2 px wide border*/
+.team1-pictures{
+  background-color: #BCD4DE;
+  height: 2000px;
+  border: 2px solid #848C8E;
+}
+/*changes background of second horizontal quarter, drags colour down and adds 2 px wide border*/
+.team2-pictures{
+  background-color: #A5CCD1;
+  height: 2000px;
+  border: 2px solid #848C8E;
+}
+/*changes background of thrid horizontal quarter, drags colour down and adds 2 px wide border*/
+.videos{
+    background-color: #A0B9BF;
+    height: 2000px;
+    border: 2px solid #848C8E;
+}
+/*changes background of last horizontal quarter, drags colour down and adds 2 px wide border*/
+.group-photos{
+    background-color: #9DACB2;
+    height: 2000px;
+    border: 2px solid #848C8E;
+}
+/*background for project page header*/
+.headerbackground{
+  background-color: #848C8E
+
+}
+/* adds "rainbow" effect to text
+.rainbow{
+/*animation loops forever taking 5 seconds per loop*/
+  -webkit-animation: rainbow 5s infinite;
+}
+/* uses keyframe rule to animate text*/
+@-webkit-keyframes rainbow{
+	10%{color: red;}
+	30%{color: yellow;}
+	50%{color: green;}
+	70%{color: blue;}
+	90%{color: orange;}
+  100%{color: red;}
+}
+.font1{
+  font-size: 30px;
+}
+
+.font2{
+  font-size: 35px;
+}
+
+.font3{
+  font-size: 40px;
+}
+/* container settings*/
+.container {
+
+  position: relative;
+  width: 100%;
+  padding: 0px;
+  border:none;
+  bottom: 0px;
+}
+
+.image1 {
+
+  display: block;
+  width: 100%;
+  height: auto;
+  padding:0px;
+  border:none;
+
+}
+
+/*opaque overlay for tiles on homepage*/
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #fff;
+}
+
+.container:hover .overlay {
+  opacity: .85;
+}
+/* no function keeps tiles aligned*/
+.buttons{
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+/*formats attribute box*/
+.attributes{
+  background-color: #96c0ea;
+  color: black;
+  font-size: 35px;
+  border: 2px solid black;
+    padding:50px;
+  }
+/* formats paragraph box*/
+.paragraph{
+  background-color: #177782;
+  color: black;
+  font-size: 35px;
+  border: 2px solid #848C8E;
+    padding:50px;
+}
