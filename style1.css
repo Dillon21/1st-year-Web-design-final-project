@@ -1,0 +1,44 @@
+.team1-pictures{
+  background-color: #BCD4DE;
+  height: 2000px;
+  border: 2px solid #BAD4AA;
+}
+.team2-pictures{
+  background-color: #A5CCD1;
+  height: 2000px;
+  border: 2px solid #BAD4AA;
+}
+.videos{
+    background-color: #A0B9BF;
+    height: 2000px;
+    border: 2px solid #BAD4AA;
+}
+.embedded-video{
+    background-color: #9DACB2;
+    height: 2000px;
+    border: 2px solid #BAD4AA;
+}
+.headerbackground{
+  background-color: #848C8E
+
+}
+.rainbow{
+
+  -webkit-animation: rainbow 5s infinite;
+}
+/* uses keyframe rule to animate text*/
+@-webkit-keyframes rainbow{
+	10%{color: red;}
+	30%{color: yellow;}
+	50%{color: green;}
+	70%{color: blue;}
+	90%{color: orange;}
+  100%{color: red;}
+}
+.font1{
+  font-size: 30px;
+}
+
+.font2{
+  font-size: 35px;
+}
