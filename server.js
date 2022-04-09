@@ -8,7 +8,7 @@ const DBURI = process.env.DBURI || "mongodb+srv://Dillon21:<password>@dillon-clu
 const MongoClient = require('mongodb').MongoClient;
 const uri = DBURI;
 const DBPASS = process.env.DBPASS
-
+const client = new MongoClient(uri, { useNewUrlParser: true});
 
 
 // This is for using a local db using mongodb community edition.
