@@ -3,12 +3,12 @@
 var express = require('express');
 var app     = express();
 const PORT = process.env.PORT || 8080;
-const DBURI = process.env.DBURI || "mongodb+srv://Dillon21:<password>@dillon-cluster.zmpnw.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+const DBURI = process.env.DBURI || "mongodb+srv://Dillon21:Inform98@dillon-cluster.zmpnw.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 
 const MongoClient = require('mongodb').MongoClient;
 const uri = DBURI;
 const DBPASS = process.env.DBPASS
-const client = new MongoClient(uri, { useNewUrlParser: true});
+const client = new MongoClient(uri, {useNewUrlParser: true});
 
 
 // This is for using a local db using mongodb community edition.
