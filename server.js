@@ -3,11 +3,12 @@
 var express = require('express');
 var app     = express();
 const PORT = process.env.PORT || 8080;
-const DBURI = process.env.DBURI || "mongodb://127.0.0.1:27017"
+const DBURI = process.env.DBURI || "mongodb+srv://Dillon21:<password>@dillon-cluster.zmpnw.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 
 const MongoClient = require('mongodb').MongoClient;
 const uri = DBURI;
 const DBPASS = process.env.DBPASS
+
 
 
 // This is for using a local db using mongodb community edition.
