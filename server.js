@@ -7,6 +7,8 @@ const DBURI = process.env.DBURI || "mongodb://127.0.0.1:27017"
 
 const MongoClient = require('mongodb').MongoClient;
 const uri = DBURI;
+const DBPASS = process.env.DBPASS
+
 
 // This is for using a local db using mongodb community edition.
 // To use the (local) community edition, download the apps from https://www.mongodb.com/try/download/community
